@@ -26,7 +26,13 @@
 
 ## 快速开始
 
-### 使用 Docker（推荐）
+### 使用 Docker Hub（最简单）
+
+```bash
+docker run -it --network host wsng911/xiaomi-ssh:latest
+```
+
+### 本地构建
 
 ```bash
 # 构建镜像
